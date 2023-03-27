@@ -1,0 +1,22 @@
+Entregable Club
+1- Generar una interface Persona con las siguientes variables internas:
+ - nombre, apellido y fechaNacimiento del tipo string.
+- documento y telefono del tipo number.
+2- Generar una clase abstracta llamada MiembroClub, que implemente la interface persona.
+Agregar a esta clase abstracta la variable: miembroDesde que es de tipo string. Y representa la fecha de alta del socio.
+3 - Debemos implementar nuestra clase abstracta, para eso generaremos una clase llamada Jugador, que extiende nuestra clase MiembroClub.
+Lo unico que debemos agregarle a esta nueva clase es un deporte.
+Con enum generaremos un listado de deportes: futbol, basket, zumba, voley, natacion, gym.
+4- Generar una clase que maneje el club, GestorClub, que deberá permitirnos la persistencia de nuestros datos. Usaremos filesystem para crear un archivo JSON donde guardaremos nuestros socios.
+Tambien usaremos el paquete readlineSync para pedir por consola los datos que necesitamos de nuestros socios.
+Debemos guardar 10 socios.
+5- Por ultimo implementar en la clase GestorClub, 4 funciones que filtren y/o encuentren en nuestro archivo JSON algun dato que buscamos. Por ejemplo buscar socios por nombre, por deporte, documento o telefono.
+Presentación: 
+- El entregable debe tener la estructura de un proyecto de node.js
+- Dependencias:  @types/node ,   readline-sync , ts-node
+- Deben ser cinco archivos (No se olviden de exportar): 
+index.ts : aqui se ejecutaran nuestras funciones.
+PersonaInterface.ts : posee la interface Persona con los datos basicos.
+AbstractMiembroClub.ts : donde deben escribir el abstract del MiembroClub e implementar la interface Persona
+Jugador.ts : aqui escribiremos nuestro enum Deporte y la clase Jugador que extiende a MiembroClub.
+GestorClub.ts : en este archivo requeriremos readlineSync, y filesystem. Tendremos la logica para la generacion del archivo JSON para agregar nuestros socios y los filtros.
