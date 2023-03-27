@@ -1,0 +1,33 @@
+{
+    "socios": [
+      {
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "fechaNacimiento": "1990-05-12",
+        "documento": 12345678,
+        "telefono": 1122334455,
+        "miembroDesde": "2021-01-01",
+        "deporte": "futbol"
+      },
+      {
+        "nombre": "María",
+        "apellido": "González",
+        "fechaNacimiento": "1995-10-20",
+        "documento": 23456789,
+        "telefono": 2233445566,
+        "miembroDesde": "2020-03-15",
+        "deporte": "natacion"
+      },
+      {
+        "nombre": "Pedro",
+        "apellido": "Rodríguez",
+        "fechaNacimiento": "1987-03-08",
+        "documento": 34567890,
+        "telefono": 3344556677,
+        "miembroDesde": "2019-07-20",
+        "deporte": "gym"
+      }
+     
+    ]
+  }
+  
